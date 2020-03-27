@@ -28,7 +28,7 @@ class Sentence:
 #################################################################################
 sent1 = Sentence("")
 sent2 = Sentence("")
-f = open("file.txt")
+f = open("Джуринський водоспад.txt")
 while True:
     try:
         s = f.readline()

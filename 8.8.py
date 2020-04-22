@@ -43,7 +43,8 @@ class SentenceError(Exception):
 #################################################################################
 sent1 = Sentence("How do I find out a name of class that created an instance of an object in Python if the function I am doing this from is the base class of which the class of the instance has been derived?")
 
-sent1[17] = "C++"
+# Для перевірки неприпустимих ситуацій:
+
 #sent1[5] = list()
 #sent1 - set()
 sent1 + 1

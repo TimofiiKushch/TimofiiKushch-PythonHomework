@@ -1,0 +1,21 @@
+FoodProduct FD1 5 400 3
+FoodProduct FD2 5 400 3
+FoodProduct FD3 5 400 3
+FoodProduct FD4 5 400 3
+FoodProduct FD5 5 400 3
+FoodProduct FD6 5 400 3
+FoodProduct FD7 5 400 3
+FoodProduct FD8 5 400 3
+FoodProduct FD9 5 400 3
+Clothes C1 400 brand 40
+Clothes C2 400 brand 40
+Clothes C3 400 brand 40
+Clothes C4 400 brand 40
+Clothes C5 400 brand 40
+Clothes C6 400 brand 40
+Book B1 100 author
+Book B2 100 author
+Book B3 100 author
+Book B4 100 author
+Book B5 100 author
+Book B6 100 author

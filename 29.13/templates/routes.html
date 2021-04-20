@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Маршрути</title>
+</head>
+<body>
+    <h1>Маршрути</h1>
+    <form method="POST" action="/">
+        <select name="passengers">
+            $passengers
+        </select>
+        <select name="routes">
+            $routes
+        </select>
+        <br>
+        <input type="submit" value="Обчислити вартість поточного маршруту"> <br>
+        <h4>Замінити маршрут на вибраний<input type="checkbox" name="change_route"></h4>
+    </form>
+    <p>
+        <h4> $cost </h4>
+    </p>
+    <a href="/add_route" title="Додати маршрут">Додати маршрут</a> <br>
+    <a href="/add_passenger" title="Внести зміни до списку пасажирів">Внести зміни до списку пасажирів</a> <br>
+    <p>
+        <h4> $result </h4>
+    </p>
+</body>
+</html>

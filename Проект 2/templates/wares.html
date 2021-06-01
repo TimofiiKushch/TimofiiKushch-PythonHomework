@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Склад</title>
+</head>
+<body>
+    <h1>Склад</h1>
+    <form method="POST" action="/">
+        <br>
+        <input type="text" name="search_bar" placeholder="Назва товару / категорії / частина назви товару" size="60"> <br>
+        <input type="radio" name="action" value="category"> Пошук товарів за категорією <br>
+        <input type="radio" name="action" value="pattern"> Пошук товарів за частиною назви <br>
+        <input type="radio" name="action" value="remainder"> Показати залишок відповідного товару <br>
+        <input type="radio" name="action" value="place"> Показати детальну інформацію для відповідного товару <br>
+        <input type="submit" value="Виконати"> <br>
+    </form>
+    <br>
+    <a href="/add_shipment" title="Додати партію товару">Додати партію товару</a> <br>
+    <a href="/remove_shipment" title="Видати товар">Видати товар</a> <br>
+    <p>
+        <h4> $result </h4>
+    </p>
+</body>
+</html>

@@ -26,7 +26,7 @@ class Storage:
         conn = sqlite3.connect(self._storage_data)
         curs = conn.cursor()
 
-        curs.execute("""SELECT "wares" FROM "shipments" WHERE instr("wares", ?) > 0 COLLATE NOCASE""", (pattern,))
+        curs.execute("""SELECT "wares" FROM "shipments" WHERE instr(lower("wares"), lower(?)) > 0""", (pattern,))
         l = curs.fetchall()
         conn.close()
 
